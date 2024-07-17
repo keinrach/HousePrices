@@ -26,14 +26,14 @@ Ames Housing Dataset and stacking: Outside of the posts on Kaggle we also review
 - **E**: The Ames Housing dataset contains 80 features and 1460 instances. We split 20% of the data for initial testing and performed 5-fold cross-validation in later tests.
 - **P**: Mean squared error was used as part of our performance evaluation metrics. RMSE was calculated to compare the results of linear and non-linear regression models.
 
-![Correlation of Features Heatmap](Correlation.png)
+![Correlation of Features Heatmap](images/Correlation.png)
 
 ## Methods
 The dataset contains 80 features. We used a correlation heatmap to explore the relationship between various features and sale price. We trained several models to address overfitting and improve prediction accuracy:
 - Linear Models: We employed linear regression, Ridge, and Lasso regression, with PCA and log transformation.
 - Non-linear Models: We used Support Vector Regression, Random Forest Regression, MLP Regression, and Gradient Boosting Regression.
 - Ensemble Model: We created a stacking ensemble model combining the predictions of previous models.
-![Baseline Model: Plot of Linear Coefficients](LinearCoefficient.png)
+![Baseline Model: Plot of Linear Coefficients](images/LinearCoefficient.png)
 
 ## Experimental Results
 ### Linear Models
@@ -46,8 +46,8 @@ The dataset contains 80 features. We used a correlation heatmap to explore the r
 | PCA Regression | 28818.64 | 36668.74 |
 | PCA Regression with Log Transform | 24840.12 | 29331.92 |
 
-![Plot of RMSE for L1 Regularization](RMSE_L1_REG.png)
-![Plot of RMSE for L2 Regularization](RMSE_L2_REG.png)
+![Plot of RMSE for L1 Regularization](images/RMSE_L1_REG.png)
+![Plot of RMSE for L2 Regularization](images/RMSE_L2_REG.png)
 
 ### Non-linear Models
 | Method | Training RMSE | Test RMSE |
