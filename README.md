@@ -33,7 +33,7 @@ The dataset contains 80 features. We used a correlation heatmap to explore the r
 - Linear Models: We employed linear regression, Ridge, and Lasso regression, with PCA and log transformation.
 - Non-linear Models: We used Support Vector Regression, Random Forest Regression, MLP Regression, and Gradient Boosting Regression.
 - Ensemble Model: We created a stacking ensemble model combining the predictions of previous models.
-![Baseline Model: Plot of Linear Coefficients](Linear Coefficient.png)
+![Baseline Model: Plot of Linear Coefficients](LinearCoefficient.png)
 
 ## Experimental Results
 ### Linear Models
@@ -46,8 +46,8 @@ The dataset contains 80 features. We used a correlation heatmap to explore the r
 | PCA Regression | 28818.64 | 36668.74 |
 | PCA Regression with Log Transform | 24840.12 | 29331.92 |
 
-![Plot of RMSE for L1 Regularization](RMSE L1 Reg.png)
-![Plot of RMSE for L2 Regularization](RMSE L2 Reg.png)
+![Plot of RMSE for L1 Regularization](RMSE_L1_REG.png)
+![Plot of RMSE for L2 Regularization](RMSE_L2_REG.png)
 
 ### Non-linear Models
 | Method | Training RMSE | Test RMSE |
